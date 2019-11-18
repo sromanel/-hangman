@@ -17,9 +17,9 @@ char *GetWord(){
 
     srand(time(NULL));
 
-    int r = rand() % 5;
+    int randomNumber = rand() % 5;
 
-    char *selected = *(words + r);
+    char *selected = *(words + randomNumber);
 
     return selected;
 }
